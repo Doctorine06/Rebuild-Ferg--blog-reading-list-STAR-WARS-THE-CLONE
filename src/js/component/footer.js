@@ -15,6 +15,7 @@ export const Footer = () => (
 			<a href="http://www.4geeksacademy.com">4Geeks Academy</a>
 		</p>
 			<h1> Case Id Star Wars Clone</h1>
+			<div><iframe width="560" height="315" src="https://www.youtube.com/embed/ZLW2jkd6E7g?si=gB0a-Ck9JIIAAA9G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
             <b>https://youtu.be/hPqklIvGknk?si=Co5BGabYqD9RPQKZ</b>
 		
 	</footer>
