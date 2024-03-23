@@ -11,6 +11,7 @@ export const Footer = () => (
 			<a href="http://www.4geeksacademy.com">4Geeks Academy</a>
 		</p>
 			<h1> Case Id Star Wars Clone</h1>
+            <b>https://youtu.be/hPqklIvGknk?si=Co5BGabYqD9RPQKZ</b>
 		
 	</footer>
 );
