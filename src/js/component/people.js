@@ -36,6 +36,7 @@ export const People = ({ char, index }) => {
            <a onClick={() => actions.addFavorites(char)} className={favs ? "fas fa-heart" : "far fa-heart"}></a>
         </div>
       </div>
+      
     </div>
   );
 };

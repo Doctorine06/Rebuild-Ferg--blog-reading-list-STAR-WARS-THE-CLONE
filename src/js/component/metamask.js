@@ -33,13 +33,18 @@ export const MetaMask = () => {
 
     return (
         <div>
-            <h3> MetaMask Wallet Connection </h3>
+            <h3>  </h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hPqklIvGknk?si=KpXJBLrOsA_P4cXi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-            <button onClick={connectWallet}>Connect Wallet</button>
-            <h5>Address: {defaultAccount} </h5>
-            <h5>Balance: $ {userBalance} </h5>
+         
+        
 
             {errorMessage}
+      
+	
+	
+			
         </div>
+        
     )
 }

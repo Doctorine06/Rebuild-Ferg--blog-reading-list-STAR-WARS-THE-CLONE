@@ -12,7 +12,17 @@ export const Home = () => {
   return (
     <div>
       <section>
-        <h2>Characters</h2>
+      <button
+              className="btn btn-warning dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="true"
+            >
+              <span className="fa fa-heart" />{" "}
+              Characters
+              
+            </button>{" "}
+        {/* <h2>Characters</h2> */}
         <div>
           {store.people.map((character, index) => {
             return <People key={index} index={index} char={character} />;
@@ -21,6 +31,16 @@ export const Home = () => {
       </section>
 
       <section>
+      <button
+              className="btn btn-warning dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="true"
+            >
+              <span className="fa fa-heart" />{" "}
+            Planets
+              
+            </button>{" "}
         <h2>Planets</h2>
         <div>
           {store.planets.map((world, index) => {
@@ -30,6 +50,16 @@ export const Home = () => {
       </section>
 
       <section>
+      <button
+              className="btn btn-warning dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="true"
+            >
+              <span className="fa fa-heart" />{" "}
+            Vehicles
+              
+            </button>{" "}
         <h2>Vehicles</h2>
         <div>
           {store.vehicles.map((ship, index) => {

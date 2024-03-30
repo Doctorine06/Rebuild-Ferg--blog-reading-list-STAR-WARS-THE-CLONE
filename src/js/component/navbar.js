@@ -10,13 +10,18 @@ export const Navbar = (index) => {
 
 
   return (
+    
     <nav className="navbar navbar-black bg-black mb-3">
+      
       <Link to="/">
-        <span className="navbar-brand mb-0 h1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/2560px-Star_Wars_Logo.svg.png" height={70}/></span>
+        <span className="navbar-brand mb-0 h1"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/2560px-Star_Wars_Logo.svg.png" height={70}/><MetaMask /></span>
       </Link>
-      <MetaMask />
+      
       <div className="ml-auto">
           <div className="dropdown">
+         
+            {/* Display a Variable counting items inside of the store.favorites */}
+            
             <button
               className="btn btn-warning dropdown-toggle"
               type="button"
@@ -26,7 +31,6 @@ export const Navbar = (index) => {
               <span className="fa fa-heart" />{" "}
               {`Favorites (${store.favorites.length})`}
             </button>{" "}
-            {/* Display a Variable counting items inside of the store.favorites */}
             <div
               className="dropdown-menu dropdown-menu-dark"
               aria-labelledby="dropdownMenuButton"
